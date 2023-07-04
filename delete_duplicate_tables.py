@@ -37,10 +37,10 @@ def compare_tables(table1, table2):
 def delete_duplicate_tables(document):
     for table_index in range(len(document.tables)):
         if table_index in duplicate_tables:
-            break
+            continue
         for comparison_table_index in range(table_index + 1, len(document.tables)):
             if comparison_table_index in duplicate_tables:
-                break
+                continue
             if compare_tables(
                 document.tables[table_index], document.tables[comparison_table_index]
             ):
