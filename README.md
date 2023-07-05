@@ -1,6 +1,4 @@
-# Delete Duplicate Tables from Docx
-
-## Usage Instructions
+# Usage Instructions
 
 1. Clone this repository
 2. Ensure you have python installed in your system.
